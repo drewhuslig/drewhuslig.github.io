@@ -1,0 +1,10 @@
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: midnightblue;
+    padding: 10px;
+    border-color: red;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 10px;
+}

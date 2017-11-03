@@ -1,0 +1,88 @@
+body{
+    background: url("../images/background.gif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
+}
+
+img{
+    border-radius: 5px 5px 0 0;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid solid none solid;
+}
+
+.navbar{
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+.navbar.navbar-default a{
+    color: white;
+}
+
+.navbar.navbar-default li a{
+    color: white;
+}
+
+.navbar.navbar-default li a:hover{
+    color: white;
+}
+
+#title{
+    text-align: center;
+    color: black;
+    background-color: paleturquoise;
+    font-size: 32px;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.panel{
+    border-collapse: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 7px;
+}
+
+.panel-heading{
+    background-color: darkslateblue !important;
+    color: white !important;
+}
+
+.panel-footer{
+    color: midnightblue;
+    border-radius: 0 0 5px 5px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.panel-body{
+    margin: 0px;
+    background-color: lightsteelblue;
+    border-radius: 0 0 7px 7px;
+}
+
+.panel-default { 
+    border-color: black !important;
+    border-width: 2px;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: darkblue;
+  text-align: center;
+}
