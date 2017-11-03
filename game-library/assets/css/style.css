@@ -1,88 +1,67 @@
-body{
-    background: url("../images/background.gif");
+body {
+    background: url("../images/background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Orbitron', sans-serif;
-    color: white;
-
+    background-color: black;
+    color: darkred;
     position: relative;
     margin: 0;
     padding-bottom: 6rem;
     min-height: 100%;
 }
 
-img{
-    border-radius: 5px 5px 0 0;
-    border-color: black;
-    border-width: 1px;
-    border-style: solid solid none solid;
-}
-
-.navbar{
+.navbar.navbar-default {
     background-color: darkblue;
     border-color: darkblue;
 }
 
-.navbar.navbar-default a{
+.navbar.navbar-default a {
     color: white;
 }
 
-.navbar.navbar-default li a{
+.navbar.navbar-default li a {
     color: white;
 }
 
-.navbar.navbar-default li a:hover{
+.navbar.navbar-default li a:hover {
     color: white;
 }
 
-#title{
-    text-align: center;
-    color: black;
-    background-color: paleturquoise;
-    font-size: 32px;
-    padding: 10px 0;
-    border-radius: 10px;
+div.jumbotron {
+    background-color: rgb(26, 25, 25);
 }
 
-.panel{
-    border-collapse: black;
-    border-width: 1px;
-    border-style: solid;
-    border-radius: 7px;
+.panel {
+    background-color: rgb(26, 25, 25);
+    font-size: 20px;
 }
 
-.panel-heading{
-    background-color: darkslateblue !important;
+div.panel-heading {
+    background-color: darkblue !important;
     color: white !important;
 }
 
-.panel-footer{
-    color: midnightblue;
-    border-radius: 0 0 5px 5px;
-    border-color: black;
-    border-width: 1px;
-    border-style: solid;
+a:hover {
+    text-decoration: node !important;
 }
 
-.panel-body{
-    margin: 0px;
-    background-color: lightsteelblue;
-    border-radius: 0 0 7px 7px;
+.fp {
+    font-size: 36px;
 }
 
-.panel-default { 
-    border-color: black !important;
-    border-width: 2px;
+.title {
+    font-size: 30px;
 }
 
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: darkblue;
-  text-align: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: darkblue;
+    text-align: center;
 }
