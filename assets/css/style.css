@@ -1,55 +1,42 @@
 body {
-    background: url("../images/background.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Orbitron', sans-serif;
-    background-color: black;
-    color: darkred;
+    background-color: #B1A296;
+    color: rgb(33, 32, 34);
     position: relative;
     margin: 0;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     min-height: 100%;
 }
 
-.navbar.navbar-default {
-    background-color: darkblue;
-    border-color: darkblue;
+.jumbotron {
+    background-color: #557A95;
+    text-align: center;
 }
 
-.navbar.navbar-default a {
-    color: white;
+.flop{
+    background-color: #5D5C61;
+    padding: 20px 40px;
 }
 
-.navbar.navbar-default li a {
-    color: white;
-}
-
-.navbar.navbar-default li a:hover {
-    color: white;
-}
-
-div.jumbotron {
-    background-color: rgb(26, 25, 25);
-}
-
-.panel {
-    background-color: rgb(26, 25, 25);
-    font-size: 20px;
-}
-
-div.panel-heading {
-    background-color: darkblue !important;
-    color: white !important;
+a {
+    color: darkblue;
 }
 
 a:hover {
-    text-decoration: node !important;
+    text-decoration: none !important;
 }
 
 .fp {
     font-size: 36px;
+    text-align: center;
+}
+
+.project{
+    background-color: 
 }
 
 .title {
@@ -62,6 +49,6 @@ a:hover {
     bottom: 0;
     left: 0;
     padding: 1rem;
-    background-color: darkblue;
+    background-color: #557A95;
     text-align: center;
 }

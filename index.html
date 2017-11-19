@@ -13,102 +13,77 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Home</a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <!-- link to game library. Might remove -->
-                            <!-- <li>
-                                <a style="color:black" href="game-library/game-library.html">Game Library</a>
-                            </li> -->
-                            <li>
-                                <a style="color:black" href="about.html">About Me</a>
-                            </li>
-                            <li>
-                                <a style="color:black" href="contact.html">Contact</a>
-                            </li>
-                            <li role="separator" class="divider"></li>
-                            <li>
-                                <a style="color:black" href="index.html">Home</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <div class="container main">
-        <div class="jumbotron">
+    <div class="row">
+        <div class="col-md-1 col-sm-0"></div>
+        <div class="jumbotron col-md-10 col-md-12">
             <h1>Hello, world!</h1>
             <p>This is my portfolio!</p>
         </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-1 col-sm-0"></div>
+        <div class="jumbotron flop col-md-10 col-sm-12">
+            <h2>About Me!</h2>
+            <p>I'm a music nerd who loves to write software. I love technology and all things engineering. Javascript is my
+                go to language and Node is my best friend. Using express I can make full stack web applications using both
+                MySQL and NoSQL. Quite familiar with HTML and Bootstrap. Although my design skills could use some work, give
+                some a reference and I can write some pretty CSS to give that site a nice shine. Mostly comfortable on Windows
+                but I have used Linux in the past.</p>
+        </div>
 
     </div>
+
+
 
     <!-- Featured projects -->
+
+
+    <h1 class="fp">Featured Projects</h1>
+
     <div class="container">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h1 class="panel-title fp">Featured Projects</h1>
+        <div class="project">
+            <div class='title'>
+                <a class='link' href='https://peaceful-sierra-12498.herokuapp.com/' target="_blank">Affect</a>
             </div>
-            <div class="panel-body">
+            <br>
+            <p>Site for finding and connecting with non-profits and charities!</p>
+        </div>
 
-                <div class='title'>Affect</div>
-                <br>
-                <p>Site for finding and connecting with non-profits and charities!</p>
-                <a class='link' href='https://peaceful-sierra-12498.herokuapp.com/'>Link</a>
+        <hr>
 
-                <hr>
+        <div class="title">
+            <a href="https://copeland87.github.io/surgeprediction/" target="_blank" class="link">Prime Time Avoidance Engine</a>
+        </div>
+        <br>
+        <p>Ever been stuck paying surge prices for Lyft before? This app aims to predicts surge pricing so you can avoid it!
+        </p>
 
-                <div class="title">Prime Time Avoidance Engine</div>
-                <br>
-                <p>Ever been stuck paying surge prices for Lyft before? This app aims to predicts surge pricing so you can avoid it!</p>
-                <a href="https://copeland87.github.io/surgeprediction/" class="link">Link</a>
+        <hr>
 
-                <hr>
+        <div class="title">
+            <a href="https://github.com/drewhuslig/bamazon" target="_blank" class="link">Bamazon</a>
+        </div>
+        <br>
+        <p>Very basic store using Node and MySQL that allows users to buy product.</p>
 
-                <div class="title">Bamazon</div>
-                <br>
-                <p>Very basic store using Node and MySQL that allows users to buy product.</p>
-                <a href="https://github.com/drewhuslig/bamazon" class="link">Link</a>
+        <hr>
 
-                <hr>
+        <div class="title">
+            <a href="https://github.com/drewhuslig/Flashcard-Generator" target="_blank" class="link">Flashcard Generator</a>
+        </div>
+        <br>
+        <p>Node app that allows you to create and practice flashcards.</p>
 
-                <div class="title">Flashcard Generator</div>
-                <br>
-                <p>Node app that allows you to create and practice flashcards.</p>
-                <a href="https://github.com/drewhuslig/Flashcard-Generator" class="link">Link</a>
 
-                <hr>
+        <hr>
 
-                <div>For more projects please visit my github <a href='https://github.com/drewhuslig'>here</a></div>
-
-            </div>
-            
+        <div>For more projects please visit my github
+            <a href='https://github.com/drewhuslig'>here</a>
         </div>
     </div>
-
 
     <div class="footer">
         <div>®Drew Huslig 2017</div>
