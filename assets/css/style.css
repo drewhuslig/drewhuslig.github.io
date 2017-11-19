@@ -12,6 +12,11 @@ body {
     min-height: 100%;
 }
 
+img {
+    height: 200px;
+    width: 200px;
+}
+
 .header {
     background-image: url('../images/background.jpg');
 }
@@ -28,8 +33,8 @@ body {
     text-align: center;
 }
 
-.flop{
-    background-color: #5D5C61;
+.about{
+    background-color: #557A95;
     padding: 20px 40px;
 }
 
