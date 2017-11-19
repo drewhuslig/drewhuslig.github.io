@@ -17,6 +17,11 @@ img {
     width: 200px;
 }
 
+.img {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .header {
     background-image: url('../images/background.jpg');
 }
