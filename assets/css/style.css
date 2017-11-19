@@ -59,6 +59,17 @@ a:hover {
     font-size: 30px;
 }
 
+i {
+    color: black;
+    height: 100px;
+    width: 100px;
+    align-content: center;
+}
+
+#connect {
+    text-align: center;
+}
+
 .footer {
     position: absolute;
     right: 0;
