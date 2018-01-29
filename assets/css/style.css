@@ -38,6 +38,22 @@ img {
     text-align: center;
 }
 
+#directory {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.dir {
+    padding: 0px 15px;
+}
+
+#projects-scroll, #contact-scroll {
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 2px;
+}
+
 .about{
     background-color: #557A95;
     padding: 20px 40px;
@@ -48,6 +64,7 @@ a {
 }
 
 a:hover {
+    color: darkblue;
     text-decoration: none;
 }
 
@@ -63,10 +80,6 @@ a:active {
 .fp {
     font-size: 36px;
     text-align: center;
-}
-
-.project{
-    background-color: 
 }
 
 .title {
